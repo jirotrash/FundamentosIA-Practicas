@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /home/chuchoivan/fundamentos-ia 2>/dev/null; ls; which python3 python 2>/dev/null; find / -maxdepth 3 -iname \"venv\" 2>/dev/null)",
+      "Read(///wsl.localhost/Ubuntu//**)",
+      "Bash(\"/c/laragon/bin/python/python-3.13/python\" Programas/diagnosticohumanos.py)",
+      "Bash(\"/c/laragon/bin/python/python-3.13/python\" -c \"import ast; ast.parse\\(open\\('Programas/diagnosticohumanos.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(\"/c/laragon/bin/python/python-3.13/python\" -c \"import ast; ast.parse\\(open\\('Programas/sistemaexpertohumano.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(\"/c/laragon/bin/python/python-3.13/python\" Programas/sistemaexpertohumano.py)"
+    ]
+  }
+}
